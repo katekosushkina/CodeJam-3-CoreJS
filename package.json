@@ -1,0 +1,17 @@
+{
+  "name": "codejam-make",
+  "version": "0.0.1",
+  "description": "codejam-make",
+  "scripts": {
+    "lint": "eslint *.js",
+    "test": "mocha *.spec.js"
+  },
+  "readme": "README.md",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
+  }
+}
