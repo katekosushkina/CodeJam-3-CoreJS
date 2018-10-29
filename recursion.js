@@ -1,5 +1,5 @@
-module.exports = (function recursion(tree, lvl) {
-  if (tree == null) return;
+module.exports = function recursion(tree, lvl) {
+  if (tree == null) return null;
 
   const curLvl = lvl || 0;
   const res = [];
@@ -27,4 +27,4 @@ module.exports = (function recursion(tree, lvl) {
     });
   }
   return res;
-}());
+};
